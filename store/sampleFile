@@ -1,0 +1,27 @@
+    export default {
+      state: {
+        name: 'ali',
+        jokes: [{
+            id: 1,
+            joke: "one"
+          },
+          {
+            id: 2,
+            joke: "two"
+          },
+        ]
+      },
+      getters: {
+        get: (state) => {
+          return state.jokes
+        },
+        name: (state) => {
+          return state.name
+        }
+      },
+      mutations: {
+        setName(state, value) {
+          state.name = 'umar'
+        }
+      }
+    }

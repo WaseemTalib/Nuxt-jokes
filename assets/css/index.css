@@ -1,0 +1,20 @@
+.jokeWrapper {
+    padding: 10px 30px;
+  }
+  .contact-enter-active,
+  .contact-leave-active {
+    transition: opacity 0.5s;
+  }
+  .contact-enter,
+  .contact-leave-active {
+    opacity: 0;
+  }
+  .jokes-enter-active,
+.jokes-leave-active {
+  transition: opacity 0.5s;
+}
+.jokes-enter,
+.jokes-leave-to {
+  opacity: 0;
+}
+
